@@ -1,0 +1,45 @@
+@charset "utf-8";
+@font-face {
+    font-family: "Elephant";
+    src: url("fonts/ELEPHNT.TTF") format(truetype);
+        }
+@font-face{
+    font-family: "Corbel";
+    src: url("fonts/corbel.ttf") format(truetype);
+}
+@font-face{
+    font-family: "Barlow-Bold";
+    src: url("/fonts/Barlow-Bold.otf") format(truetype);
+}
+
+@font-face{
+    font-family: "Cute 'n' Cuddly";
+    src: url("/fonts/CuteNCuddly-vmZAD.ttf") format(truetype);
+}
+
+@font-face{
+    font-family: "Tokyo-Regular";
+    src: url("/fonts/Tokyo-Regular.ttf") format(truetype);
+}
+
+@font-face{
+    font-family: "Tokyo-Outline";
+    src: url("/fonts/Tokyo-Outline.ttf") format(truetype);
+}
+
+
+html{
+    height: 100%;
+    background-color: rgba(234,234,234,1);
+    margin: 0 ; 
+    border: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;/*so that scroll is smooth transition*/
+
+}
+body{ 
+    background-color:#22202d; 
+}
+
+
